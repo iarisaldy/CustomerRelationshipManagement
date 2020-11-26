@@ -1,0 +1,9 @@
+#Connection String
+#ASHOST = 10.15.5.13
+SYSNR = 20
+MSHOST = 10.16.5.112
+R3NAME = SEP
+GROUP = SAPRFC
+CLIENT = 210
+USER = developer01
+PASSWD = langithitam

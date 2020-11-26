@@ -1,0 +1,210 @@
+/* CSS Document */
+body{
+margin:0;
+background-color:#eee;
+}
+#rata_bawah{
+clear:both;
+}
+#ha_1{
+position:fixed;
+width:20%;
+min-width:250px;
+height:100%;
+background-color:#303F9F;
+border-right:#c5cae9 solid 0px;
+}
+#ha_1_h{
+float:left;
+width:100%;
+height:45px;
+background-color:#3F51B5;
+border-bottom:#1A237E solid 2px;
+}
+#ha_1_h_tempat_icont{
+float:left;
+margin-top:8px;
+margin-left:10px;
+width:28px;
+height:28px;
+background-color:inherit;
+cursor:pointer;
+display: none;
+}
+#ha_1_h_tempat_icont:hover{
+background-color:#eee;
+}
+#ha_1_h_text_judul_header{
+float:left;
+margin-top:12px;
+margin-left:12px;
+width:auto;
+height:auto;
+color:#fff;
+font:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size:16px;
+font-weight:bold;
+cursor:pointer;
+}
+#ha_1_c_1{
+float:left;
+width:100%;
+height:auto;
+background-color:inherit;
+background-size:contain;
+}
+#ha_1_c_1_tmp_profil{
+float:left;
+margin-bottom:20px;
+width:100%;
+min-height:50px;
+background-color:#444;
+background-color: #3f51b5;
+background-color: inherit;
+border-bottom:#1A237E solid 1px;
+}
+#ha_1_c_1_tmp_profil_foto{
+float:left;
+margin-left:10px;
+margin-top:15px;
+width:34px;
+height:34px;
+background-color:#ccc;
+border-radius:17px;
+border:#ccc solid 2px;
+}
+#ha_1_c_1_tmp_profil_ket_admin{
+float:left;
+margin-top:17px;
+margin-left:12px;
+width:180px;
+height:auto;
+background-color:inherit;
+}
+#ha_1_c_1_tmp_profil_nm_admin{
+float:left;
+margin-left:3px;
+margin-top:2px;
+max-width:200px;
+width:200px;
+height:auto;
+font:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size:12px;
+font-weight:bold;
+color:#fff;
+}
+#ha_1_c_1_tmp_profil_id_admin{
+float:left;
+margin-left:3px;
+margin-top:5px;
+margin-bottom:20px;
+max-width:200px;
+height:auto;
+font:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size:10px;
+font-weight:700;
+color:#ccc;
+}
+#ha_1_c_1_TMP_menu_1{
+float:left;
+width:100%;
+min-height:40px;
+background-color:inherit;
+border-bottom:#1A237E solid 1px;
+cursor:pointer;
+}
+
+#ha_1_c_1_TMP_menu_1_menu_utama{
+float:left;
+width:100%;
+height:40px;
+background-color:#3f51b5;
+background-color: inherit;
+}
+#ha_1_c_1_TMP_menu_1_menu_utama:hover{
+background-color:#1A237E;
+}
+#ha_1_c_1_TMP_menu_1_sub_menu_utama{
+float:left;
+width:100%;
+height:auto;
+background-color:inherit;
+border-bottom:#fff solid 0px;
+}
+#ha_1_c_1_TMP_menu_1_sub_menu_utama:hover{
+background-color:#1A237E;
+}
+#ha_1_c_1_icont_menu_utama{
+float:left;
+margin-left:17px;
+margin-top:8px;
+width:22px;
+height:22px;
+background-color:inherit;
+}
+#ha_1_c_1_ket_menu_utama{
+float:left;
+margin-left:10px;
+margin-top:10px;
+width:170px;
+height:auto;
+color:#ccc;
+font:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size:13px;
+font-weight:bolder;
+}
+#ha_1_c_1_icont_menu_dropdown{
+float:right;
+margin-right:10px;
+margin-top:10px;
+width:18px;
+height:18px;
+border-radius:9px;
+background-color:#303f9f;
+color:#ccc;
+text-align:center;
+font:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size:12px;
+font-weight:800;
+}
+#ha_1_c_1_icont_sub_menu{
+float:left;
+margin-top:5px;
+margin-left:20px;
+width:18px;
+height:18px;
+background-color:inherit;
+}
+#ha_1_c_1_ket_sub_menu{
+float:left;
+margin-left:12px;
+margin-top:8px;
+margin-bottom:7px;
+width:180px;
+height:auto;
+color:#ccc;
+font:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size:12px;
+font-weight:bold;
+}
+
+
+@media only screen and (max-width:640px){
+#ha_1{
+position: absolute;
+width:50px;
+min-width:50px;
+}
+#ha_1_c_1_tmp_profil_ket_admin, #ha_1_h_text_judul_header, #ha_1_c_1_ket_menu_utama, #ha_1_c_1_icont_menu_dropdown{
+display:none;
+}
+#ha_1_h_tempat_icont{
+display: block;
+}
+}

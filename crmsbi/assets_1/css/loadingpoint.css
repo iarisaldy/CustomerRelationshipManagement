@@ -1,0 +1,1088 @@
+	.c1{
+		position: absolute;
+		width: 2%;
+		color: black;
+		top: 50%;
+		left: 35%;
+		background: #2bef25;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c1:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c1-val{
+		position: absolute;
+		width: 2%;
+		top: 52.8%;
+		left: 35%;
+		color: black;
+		background: #80DFFF;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c1-val:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c2{
+		position: absolute;
+		width: 2%;
+		color: black;
+		top: 50%;
+		left: 38%;
+		background: #2bef25;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c2:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c2-val{
+		position: absolute;
+		width: 2%;
+		top: 52.8%;
+		left: 38%;
+		color: black;
+		background: #80DFFF;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c2-val:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c3{
+		position: absolute;
+		width: 2%;
+		color: black;
+		top: 50%;
+		left: 41%;
+		background: #2bef25;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c3:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c3-val{
+		position: absolute;
+		width: 2%;
+		top: 52.8%;
+		left: 41%;
+		color: black;
+		background: #80DFFF;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c3-val:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c4{
+		position: absolute;
+		width: 2%;
+		color: black;
+		top: 50%;
+		left: 44%;
+		background: #2bef25;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c4:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c4-val{
+		position: absolute;
+		width: 2%;
+		top: 52.8%;
+		left: 44%;
+		color: black;
+		background: #80DFFF;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c4-val:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c5{
+		position: absolute;
+		width: 2%;
+		color: black;
+		top: 56%;
+		left: 35%;
+		background: #2bef25;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c5:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c5-val{
+		position: absolute;
+		width: 2%;
+		top: 58.8%;
+		left: 35%;
+		color: black;
+		background: #80DFFF;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c5-val:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c6{
+		position: absolute;
+		width: 2%;
+		color: black;
+		top: 56%;
+		left: 38%;
+		background: #2bef25;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c6:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c6-val{
+		position: absolute;
+		width: 2%;
+		top: 58.8%;
+		left: 38%;
+		color: black;
+		background: #80DFFF;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c6-val:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c7{
+		position: absolute;
+		width: 2%;
+		color: black;
+		top: 56%;
+		left: 41%;
+		background: #2bef25;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c7:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c7-val{
+		position: absolute;
+		width: 2%;
+		top: 58.8%;
+		left: 41%;
+		color: black;
+		background: #80DFFF;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c7-val:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c8{
+		position: absolute;
+		width: 2%;
+		color: black;
+		top: 56%;
+		left: 44%;
+		background: #2bef25;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c8:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c8-val{
+		position: absolute;
+		width: 2%;
+		top: 58.8%;
+		left: 44%;
+		color: black;
+		background: #80DFFF;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c8-val:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c11{
+		position: absolute;
+		width: 2%;
+		color: black;
+		top: 50%;
+		left: 48.8%;
+		background: #2bef25;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c11:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c11-val{
+		position: absolute;
+		width: 2%;
+		top: 52.8%;
+		left: 48.8%;
+		color: black;
+		background: #80DFFF;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c11-val:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c12{
+		position: absolute;
+		width: 2%;
+		color: black;
+		top: 50%;
+		left: 51.8%;
+		background: #2bef25;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c12:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c12-val{
+		position: absolute;
+		width: 2%;
+		top: 52.8%;
+		left: 51.8%;
+		color: black;
+		background: #80DFFF;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c12-val:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c13{
+		position: absolute;
+		width: 2%;
+		color: black;
+		top: 50%;
+		left: 54.8%;
+		background: #2bef25;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c13:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c13-val{
+		position: absolute;
+		width: 2%;
+		top: 52.8%;
+		left: 54.8%;
+		color: black;
+		background: #80DFFF;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c13-val:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c14{
+		position: absolute;
+		width: 2%;
+		color: black;
+		top: 50%;
+		left: 57.8%;
+		background: #2bef25;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c14:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c14-val{
+		position: absolute;
+		width: 2%;
+		top: 52.8%;
+		left: 57.8%;
+		color: black;
+		background: #80DFFF;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c14-val:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c15{
+		position: absolute;
+		width: 2%;
+		color: black;
+		top: 56%;
+		left: 48.8%;
+		background: #2bef25;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c15:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c15-val{
+		position: absolute;
+		width: 2%;
+		top: 58.8%;
+		left: 48.8%;
+		color: black;
+		background: #80DFFF;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c15-val:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c16{
+		position: absolute;
+		width: 2%;
+		color: black;
+		top: 56%;
+		left: 51.8%;
+		background: #2bef25;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c16:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c16-val{
+		position: absolute;
+		width: 2%;
+		top: 58.8%;
+		left: 51.8%;
+		color: black;
+		background: #80DFFF;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c16-val:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c17{
+		position: absolute;
+		width: 2%;
+		color: black;
+		top: 56%;
+		left: 54.8%;
+		background: #2bef25;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c17:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c17-val{
+		position: absolute;
+		width: 2%;
+		top: 58.8%;
+		left: 54.8%;
+		color: black;
+		background: #80DFFF;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c17-val:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c18{
+		position: absolute;
+		width: 2%;
+		color: black;
+		top: 56%;
+		left: 57.8%;
+		background: #2bef25;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c18:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c18-val{
+		position: absolute;
+		width: 2%;
+		top: 58.8%;
+		left: 57.8%;
+		color: black;
+		background: #80DFFF;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c18-val:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c19{
+		position: absolute;
+		width: 2%;
+		color: black;
+		top: 62.1%;
+		left: 48.8%;
+		background: #2bef25;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c19:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c19-val{
+		position: absolute;
+		width: 2%;
+		top: 64.9%;
+		left: 48.8%;
+		color: black;
+		background: #80DFFF;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c19-val:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c21{
+		position: absolute;
+		width: 2%;
+		color: black;
+		top: 50%;
+		left: 63%;
+		background: #2bef25;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c21:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c21-val{
+		position: absolute;
+		width: 2%;
+		top: 52.8%;
+		left: 63%;
+		color: black;
+		background: #80DFFF;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c21-val:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c22{
+		position: absolute;
+		width: 2%;
+		color: black;
+		top: 50%;
+		left: 66%;
+		background: #2bef25;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c22:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c22-val{
+		position: absolute;
+		width: 2%;
+		top: 52.8%;
+		left: 66%;
+		color: black;
+		background: #80DFFF;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c22-val:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c23{
+		position: absolute;
+		width: 2%;
+		color: black;
+		top: 50%;
+		left: 69%;
+		background: #2bef25;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c23:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c23-val{
+		position: absolute;
+		width: 2%;
+		top: 52.8%;
+		left: 69%;
+		color: black;
+		background: #80DFFF;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c23-val:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c24{
+		position: absolute;
+		width: 2%;
+		color: black;
+		top: 50%;
+		left: 72%;
+		background: #2bef25;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c24:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c24-val{
+		position: absolute;
+		width: 2%;
+		top: 52.8%;
+		left: 72%;
+		color: black;
+		background: #80DFFF;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c24-val:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c25{
+		position: absolute;
+		width: 2%;
+		color: black;
+		top: 56%;
+		left: 63%;
+		background: #2bef25;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c25:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c25-val{
+		position: absolute;
+		width: 2%;
+		top: 58.8%;
+		left: 63%;
+		color: black;
+		background: #80DFFF;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c25-val:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c31{
+		position: absolute;
+		width: 2%;
+		color: black;
+		top: 50%;
+		left: 76.5%;
+		background: #2bef25;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c31:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c31-val{
+		position: absolute;
+		width: 2%;
+		top: 52.8%;
+		left: 76.5%;
+		color: black;
+		background: #80DFFF;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c31-val:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c32{
+		position: absolute;
+		width: 2%;
+		color: black;
+		top: 50%;
+		left: 79.5%;
+		background: #2bef25;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c32:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c32-val{
+		position: absolute;
+		width: 2%;
+		top: 52.8%;
+		left: 79.5%;
+		color: black;
+		background: #80DFFF;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c32-val:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c33{
+		position: absolute;
+		width: 2%;
+		color: black;
+		top: 50%;
+		left: 82.5%;
+		background: #2bef25;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c33:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c33-val{
+		position: absolute;
+		width: 2%;
+		top: 52.8%;
+		left: 82.5%;
+		color: black;
+		background: #80DFFF;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c33-val:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c34{
+		position: absolute;
+		width: 2%;
+		color: black;
+		top: 50%;
+		left: 85.5%;
+		background: #2bef25;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c34:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c34-val{
+		position: absolute;
+		width: 2%;
+		top: 52.8%;
+		left: 85.5%;
+		color: black;
+		background: #80DFFF;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c34-val:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c80{
+		position: absolute;
+		width: 2%;
+		color: black;
+		top: 80%;
+		left: 35%;
+		background: #2bef25;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c80:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c80-val{
+		position: absolute;
+		width: 2%;
+		top: 82.8%;
+		left: 35%;
+		color: black;
+		background: #80DFFF;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c80-val:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c90{
+		position: absolute;
+		width: 2%;
+		color: black;
+		top: 80%;
+		left: 38%;
+		background: #2bef25;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c90:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c90-val{
+		position: absolute;
+		width: 2%;
+		top: 82.8%;
+		left: 38%;
+		color: black;
+		background: #80DFFF;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c90-val:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c81{
+		position: absolute;
+		width: 2%;
+		color: black;
+		top: 80%;
+		left: 49%;
+		background: #2bef25;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c81:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c81-val{
+		position: absolute;
+		width: 2%;
+		top: 82.8%;
+		left: 49%;
+		color: black;
+		background: #80DFFF;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c81-val:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c91{
+		position: absolute;
+		width: 2%;
+		color: black;
+		top: 80%;
+		left: 52%;
+		background: #2bef25;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c91:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c91-val{
+		position: absolute;
+		width: 2%;
+		top: 82.8%;
+		left: 52%;
+		color: black;
+		background: #80DFFF;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c91-val:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c82{
+		position: absolute;
+		width: 2%;
+		color: black;
+		top: 80%;
+		left: 63%;
+		background: #2bef25;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c82:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c82-val{
+		position: absolute;
+		width: 2%;
+		top: 82.8%;
+		left: 63%;
+		color: black;
+		background: #80DFFF;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c82-val:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c92{
+		position: absolute;
+		width: 2%;
+		color: black;
+		top: 80%;
+		left: 66%;
+		background: #2bef25;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c92:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c92-val{
+		position: absolute;
+		width: 2%;
+		top: 82.8%;
+		left: 66%;
+		color: black;
+		background: #80DFFF;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c92-val:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c84{
+		position: absolute;
+		width: 2%;
+		color: black;
+		top: 80%;
+		left: 77%;
+		background: #2bef25;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c84:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c84-val{
+		position: absolute;
+		width: 2%;
+		top: 82.8%;
+		left: 77%;
+		color: black;
+		background: #80DFFF;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c84-val:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c94{
+		position: absolute;
+		width: 2%;
+		color: black;
+		top: 80%;
+		left: 80%;
+		background: #2bef25;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c94:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c94-val{
+		position: absolute;
+		width: 2%;
+		top: 82.8%;
+		left: 80%;
+		color: black;
+		background: #80DFFF;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c94-val:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}

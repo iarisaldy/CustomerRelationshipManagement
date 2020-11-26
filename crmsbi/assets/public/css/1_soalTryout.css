@@ -1,0 +1,227 @@
+#body_soal{
+position: absolute;
+width: 100%;
+height: 100%;
+background-color: #E8EAF6;
+}
+#bs_head{
+position: fixed;
+width: 100%;
+height: 70px;
+background-color: #3F51B5;
+border-bottom:#7986CB solid 2px;
+}
+#bs_h_1{
+margin: auto;
+width: 90%;
+height: 100%;
+background-color: inherit;
+}
+#bs_h_tmp_select_no_soal{
+float: left;
+margin-left: 10px;
+width: 200px;
+height: 100%;
+background-color: inherit;
+}
+#bs_h_input_select_soal{
+float: left;
+margin-top: 15px;
+margin-bottom: 10px;
+height: 30px;
+width: 98%;
+font-size: 14px;
+font-weight: bold;
+font-family: sans-serif;
+cursor: pointer;
+}
+#bs_h_tmp_Selesai_tryout{
+float: right;
+margin-right: 10px;
+width: 200px;
+height: 100%;
+background-color: inherit;
+}
+#bs_h_button_selesai{
+float: right;
+margin-top: 15px;
+margin-bottom: 40px;
+width: 95%;
+height: 45px;
+font-size: 16px;
+background-color: #1A237E;
+color: #E8EAF6;
+font-weight: bolder;
+font-family: sans-serif;
+cursor: pointer;
+border-radius: 5px;
+}
+#bs_h_button_selesai:hover{
+box-shadow: #000 0px 0px 5px 5px;
+}
+#bs_h_tmp_waktu_Mengerjakan{
+margin: auto;
+width: 200px;
+height: 60px;
+background-color: #000;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+cursor: pointer;
+box-shadow: #fff 0px 0px 2px 2px;
+}
+#bs_spasi_15{
+float: left;
+width: 100%;
+height: 15px;
+}
+#bs_h_text_1{
+color: #eee;
+font-size: 24px;
+text-align:center;
+font-weight: bolder;
+font-family: sans-serif;
+}
+#bs_h_text_2{
+color: #fff;
+font-size: 24px;
+text-align:center;
+font-weight: bolder;
+font-family: sans-serif;
+}
+#bs_content{
+float: left;
+margin-top: 70px;
+width: 100%;
+height: 100%;
+background-color: inherit;
+}
+#bs_c_1{
+  margin: auto;
+  width: 90%;
+  height: 90%;
+  background-color: inherit;
+}
+#bs_c_float{
+float: left;
+margin-top: 10px;
+width: 100%;
+height: auto;
+background-color: inherit;
+box-shadow: #5C6BC0 1px 1px 1px 1px;
+}
+#bs_c_1_1{
+float: left;
+width: 100%;
+height: auto;
+background-color: #fff;
+}
+#bs_c_1_2{
+float: left;
+margin-top: 10px;
+width: 100%;
+height: auto;
+background-color: #222;
+border-top: #5C6BC0 solid 1px;
+}
+#bs_c_text_no_soal{
+float: left;
+margin-left: 10px;
+margin-top: 25px;
+margin-bottom: 5px;
+width: auto;
+height: auto;
+color: #222;
+font-size: 18px;
+font-weight: bold;
+font-family: sans-serif;
+}
+#bs_c_tempat_isi_soal{
+float: left;
+margin-left: 10px;
+width: 95%;
+height: auto;
+min-height: 100px;
+background-color: #fff;
+margin-bottom: 10px;
+box-shadow: #1A237E 0px 0px 2px 2px;
+}
+#bs_c_text_isi_soal{
+float: left;
+margin-top: 10px;
+margin-left: 10px;
+margin-bottom: 10px;
+margin-right: 10px;
+}
+#bs_c_tempat_jawaban_1{
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  width: 420px;
+  height: auto;
+  min-height: 40px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: #9FA8DA 0px 0px 2px 2px;
+}
+#bs_c_text_isi_jawaban{
+float: left;
+margin-top: 5px;
+margin-left: 5px;
+margin-bottom: 5px;
+margin-right: 5px;
+}
+#bs_c_tempat_jawaban_1:hover{
+background-color: #3F51B5;
+box-shadow: #1A237E 0px 0px 3px 3px;
+color: #fff;
+cursor: pointer;
+}
+#bs_rata_bawah{
+  clear: both;
+}
+#bs_c_tempat_icont_nav{
+float: left;
+margin-left: 10px;
+margin-top: 10px;
+margin-bottom: 15px;
+width: 40px;
+height: 30px;
+background-color: inherit;
+}
+#bs_c_tempat_icont_nav:hover{
+  background-color: #E8EAF6;
+  cursor: pointer;
+  width: 45px;
+  height: 35px;
+}
+#bs_c_text_nav{
+  float: left;
+  margin-left: 10px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  width: auto;
+  height: auto;
+  color: #888;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+@media only screen and (max-width:640px){
+#bs_h_1, #bs_c_1{
+width: 100%;
+}
+#bs_h_tmp_select_no_soal, #bs_h_tmp_Selesai_tryout{
+width: 100px;
+}
+#bs_h_tmp_waktu_Mengerjakan{
+  width: 150px;
+}
+#bs_h_text_1, #bs_h_text_2{
+font-size: 20px;
+}
+#bs_c_tempat_jawaban_1{
+width: 95%;
+}
+}

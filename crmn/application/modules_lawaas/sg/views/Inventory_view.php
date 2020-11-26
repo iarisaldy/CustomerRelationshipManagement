@@ -1,0 +1,1 @@
+<center><img src="<?php echo base_url();?>assets/img/resource_inventory.jpg"></center>

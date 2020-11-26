@@ -1,0 +1,394 @@
+#cp_body{
+float:left;
+width:100%;
+min-height:500px;
+background-color:#E8EAF6;
+}
+#cp_content{
+float: left;
+margin-top: 10px;
+margin-left: 300px;
+min-width: 800px;
+max-width: 950px;
+height: auto;
+background-color: #fff;
+border: #ccc solid 1px;
+}
+#cp_content1{
+float: left;
+margin-top: 10px;
+margin-left: 300px;
+min-width: 450px;
+max-width: 750px;
+height: auto;
+background-color: #fff;
+border: #ccc solid 1px;
+}
+#cp_content_foto{
+float: left;
+margin-left: 5px;
+margin-top: 10px;
+width: auto;
+height: auto;
+background-color: inherit;
+}
+#cp_tmp_foto{
+float: right;
+margin-top: 0px;
+width: 220px;
+height: 280px;
+background-color: #ccc;
+border: #eee solid 2px;
+border-radius:5px;
+}
+#cp_foto_submit{
+float: left;
+margin-top: 2px;
+width: 120px;
+height: 30px;
+color: #333;
+font-weight: bolder;
+border-radius: 3px;
+font-size: 14px;
+}
+#cp_content_tempat_header{
+float: left;
+width: 100%;
+height: auto;
+background-color: #212121;
+}
+#cp_c_text_header{
+float: left;
+margin-top: 10px;
+margin-bottom: 10px;
+margin-left: 10px;
+width: auto;
+height: auto;
+font-family: sans-serif;
+font-size: 18px;
+font-weight: bolder;
+color: #fff;
+}
+#cp_tmp_text{
+float: left;
+width: 100%;
+height: auto;
+background-color: inherit;
+}
+#cp_label_1{
+float: left;
+margin-left: 10px;
+margin-top: 5px;
+margin-bottom: 2px;
+width: 130px;
+height: auto;
+font-family: sans-serif;
+font-weight: bold;
+font-size: 14px;
+color: #444;
+}
+#cp_label_extra{
+float: left;
+margin-left: 35px;
+margin-top: 5px;
+margin-bottom: 2px;
+width: 180px;
+height: auto;
+font-family: sans-serif;
+font-weight: bolder;
+font-size: 14px;
+color: blue;
+}
+
+#cp_label_50{
+float: left;
+margin-left: 10px;
+margin-top: 5px;
+margin-bottom: 2px;
+width: 50px;
+height: auto;
+font-family: sans-serif;
+font-weight: bold;
+font-size: 14px;
+color: #444;
+}
+#cp_label_50l{
+float: left;
+margin-left: 10px;
+margin-top: 5px;
+margin-bottom: 2px;
+border-bottom: #222 solid 2px;
+width: 50px;
+height: auto;
+font-family: sans-serif;
+font-weight: bold;
+font-size: 14px;
+color: #444;
+}
+#cp_label_2{
+float: left;
+margin-left: 10px;
+margin-top: 5px;
+margin-bottom: 2px;
+width: 250px;
+height: auto;
+font-family: sans-serif;
+font-weight: bold;
+font-size: 14px;
+color: #444;
+}
+#cp_label_auto{
+float: left;
+margin-left: 10px;
+margin-top: 5px;
+margin-bottom: 2px;
+width: auto;
+height: auto;
+font-family: sans-serif;
+font-weight: bold;
+font-size: 14px;
+color: #444;
+}
+#cp_label_auto1{
+float: left;
+margin-left: 10px;
+margin-right: 5px;
+margin-top: 5px;
+margin-bottom: 2px;
+width: auto;
+height: auto;
+text-align: justify;
+font-family: sans-serif;
+font-weight: bolder;
+font-size: 16px;
+color: #444;
+}
+#cp_label_table{
+float: left;
+margin-left: 7px;
+margin-top: 5px;
+margin-bottom: 1px;
+width: auto;
+height: auto;
+font-family: sans-serif;
+font-weight: bold;
+font-size: 16px;
+color: #444;
+border-bottom: #444 solid 2px;
+}
+/* ini bagian form input  */
+#cp_select_300{
+float: left;
+margin-left: 10px;
+width: 300px;
+height: 30px;
+}
+#cp_select_250{
+float: left;
+margin-left: 10px;
+width: 250px;
+height: 30px;
+}
+
+#cp_icont_button{
+float: left;
+margin-left: 10px;
+margin-top: 3px;
+margin-right: 5px;
+width: 25px;
+height: 25px;
+background-color: inherit;
+cursor: pointer;
+}
+#cp_icont_button:hover{
+width: 25px;
+height: 25px;
+border: #303F9F solid 2px;
+}
+#cp_icont_button_table{
+float: left;
+margin-left: 5px;
+margin-top: 3px;
+width: 22px;
+height: 22px;
+background-color: inherit;
+cursor: pointer;
+}
+#cp_icont_button_table:hover{
+background-color: #ccc;
+}
+#cp_submit_1{
+float: left;
+margin-left: 15px;
+width: 120px;
+height: 35px;
+font-family: sans-serif;
+font-size: 14px;
+font-weight: bolder;
+}
+#cp_submit_2{
+float: left;
+margin-left: 15px;
+width: 100px;
+height: 35px;
+font-family: sans-serif;
+font-size: 14px;
+font-weight: bolder;
+}
+#space_bawah{
+float: left;
+width: 100%;
+height: 10px;
+}
+#space_bawah5{
+float: left;
+width: 100%;
+height: 5px;
+}
+#cp_tmp_table{
+float: left;
+width: 470px;
+height:auto;
+background-color: inherit;
+}
+#cp_table{
+float: left;
+margin-left: 5px;
+width: 475px;
+height: auto;
+border: #ccc solid 1px;
+}
+#cp_table550{
+float: left;
+margin-left: 5px;
+width: 550px;
+height: auto;
+border: #ccc solid 1px;
+}
+#cp_table650{
+float: left;
+margin-left: 5px;
+width: 650px;
+height: auto;
+border: #ccc solid 1px;
+}
+#cp_table750{
+float: left;
+margin-left: 5px;
+width: 720px;
+height: auto;
+border: #ccc solid 1px;
+}
+#cp_table850{
+float: left;
+margin-left: 5px;
+width: 820px;
+height: auto;
+border: #ccc solid 1px;
+}
+#cp_table950{
+float: left;
+margin-left: 5px;
+width: 920px;
+height: auto;
+border: #ccc solid 1px;
+}
+#cp_table_row_1{
+float: left;
+width: 100%;
+height: auto;
+background-color: #222;
+}
+#cp_table_row_2{
+float: left;
+width: 100%;
+height: auto;
+min-height: 28px;
+background-color: #fff;
+}
+#cp_table_row_3{
+float: left;
+width: 100%;
+height: auto;
+min-height: 28px;
+background-color: #ddd;
+}
+#cp_table_field_50{
+float: left;
+width: 50px;
+height: auto;
+}
+#cp_table_field_100{
+float: left;
+width: 100px;
+height: auto;
+}
+#cp_table_field_150{
+float: left;
+width: 150px;
+height: auto;
+}
+#cp_table_field_200{
+float: left;
+width: 200px;
+height: auto;
+}
+#cp_table_field_250{
+float: left;
+width: 250px;
+height: auto;
+}
+#cp_table_field_300{
+float: left;
+width: 300px;
+height: auto;
+}
+#cp_table_field_350{
+float: left;
+width: 340px;
+height: auto;
+}
+#cp_table_field_450{
+float: left;
+width: 440px;
+height: auto;
+}
+#cp_table_text{
+float: left;
+margin-left: 5px;
+margin-top: 5px;
+margin-bottom: 7px;
+font-family: sans-serif;
+font-weight: bold;
+font-size: 14px;
+color: #fff;
+}
+#cp_table_text1{
+float: left;
+margin-left: 5px;
+margin-top: 5px;
+font-family: sans-serif;
+font-weight: bold;
+font-size: 12px;
+color: #333;
+}
+
+
+
+
+
+
+@media only screen and (max-width:640px){
+#cp_content{
+margin-left: 0px;
+min-width: auto;
+width: 100%;
+}
+#cp_tmp_table{
+width: 98%;
+overflow: auto;
+}
+#cp_select_300, #cp_select_250{
+width: 200px;
+}
+}

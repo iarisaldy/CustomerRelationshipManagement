@@ -1,0 +1,32 @@
+
+html {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	margin: 0;
+	padding: 10px;
+}
+
+body {
+	font-family: 'Helvetica Neue', Arial, sans-serif;
+	font-size: 17px;
+	line-height: 24px;
+	color: #505963;
+	background: #fff;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+a {
+	color: #8f99a4;
+	text-decoration: none;
+	-webkit-transition: color .2s;
+	transition: color .2s;
+}
+
+a:hover {
+	color: #505963;
+	text-decoration: none;
+}

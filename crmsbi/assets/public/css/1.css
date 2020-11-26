@@ -1,0 +1,378 @@
+/* CSS Document */
+body{
+margin:0;
+background-color: #E8EAF6;
+}
+#header{
+float: left;
+width: 100%;
+height: auto;
+background-color: #3F51B5;
+border-bottom:#7986CB solid 1px;
+}
+#h_tempat_icont{
+float: left;
+margin-left: 25px;
+margin-top: 10px;
+margin-bottom: 10px;
+width: 32px;
+height: 32px;
+background-color: inherit;
+border-radius: 5px;
+}
+#h_judul_text{
+float: left;
+margin-left: 10px;
+margin-top: 10px;
+font-family: sans-serif;
+font-size: 24px;
+color: #fff;
+font-weight: bolder;
+width: auto;
+height: auto;
+}
+#h_tempat_login{
+float: right;
+margin-bottom: 5px;
+margin-right: 25px;
+width: auto;
+height: 100%;
+background-color: inherit;
+}
+#h_input_login{
+float: left;
+margin-left: 5px;
+margin-top: 10px;
+width: 164px;
+height: 22px;
+border: #E8EAF6 solid 1px;
+}
+#h_button_login{
+float: left;
+margin-left: 7px;
+margin-top: 10px;
+width: 75px;
+height: 28px;
+background-color: inherit;
+border: 0;
+cursor: pointer;
+box-shadow: 0px 0px 2px 2px #1A237E;
+border-radius: 3px;
+font-size: 14px;
+font-weight: bold;
+color: #E8EAF6;
+}
+#h_button_login:hover{
+background-color: #5C6BC0;
+}
+
+#content{
+float: left;
+width: 100%;
+min-height: 500px;
+background-color: inherit;
+}
+#c_kiri{
+float: left;
+margin-left: 25px;
+max-width: 800px;
+min-height: 200px;
+background-color: inherit;
+}
+#ckir_tmp_judul{
+float: left;
+width: 100%;
+height: auto;
+margin-bottom: 10px;
+margin-top: 10px;
+background-color: #212121;
+border: #9FA8DA solid 1px;
+}
+#ckir_text_judul{
+float: left;
+margin-left: 10px;
+margin-top: 10px;
+margin-bottom: 10px;
+font-family: sans-serif;
+font-size: 18px;
+color: #eee;
+font-weight: bold;
+width: auto;
+height: auto;
+}
+#ckir_tmp_search{
+float: left;
+margin-left: 170px;
+margin-top: 8px;
+height: 250px;
+height:25px;
+background-color: #fff;
+border:#ccc solid 1px;
+border-radius: 1px;
+}
+#ckir_icont_src{
+float: right;
+margin-left: 10px;
+margin-right: 5px;
+margin-top: 3px;
+width: 20px;
+height: 20px;
+background-color: inherit;
+}
+#ckir_txt_src{
+float: left;
+margin-left: 5px;
+width: 200px;
+height: 23px;
+border: 0;
+}
+#ckir_tempat_table{
+position: relative;
+width: 820px;
+min-height: 200px;
+height: auto;
+background-color: inherit;
+overflow: auto;
+}
+#ckir_table{
+float: left;
+width: 800px;
+height: auto;
+background-color: inherit;
+border: #9FA8DA solid 1px;
+}
+#ckir_table_row1{
+float: left;
+width: 100%;
+height: 30px;
+background-color: #4CAF50;
+background-color: #303F9F;
+background-color: #212121;
+}
+#ckir_table_row2{
+float: left;
+width: 100%;
+height: 28px;
+background-color: #FFF;
+}
+#ckir_table_row3{
+float: left;
+width: 100%;
+height: 28px;
+background-color: #9FA8DA;
+}
+#ckir_table_field1_50{
+float: left;
+width: 50px;
+height: auto;
+}
+#ckir_table_field1_100{
+float: left;
+width: 100px;
+height: auto;
+}
+#ckir_table_field1_150{
+float: left;
+width: 150px;
+height: auto;
+}
+#ckir_table_field1_200{
+float: left;
+width: 200px;
+height: auto;
+}
+#ckir_table_field1_250{
+float: left;
+width: 250px;
+height: auto;
+}
+#ckir_table_field1_300{
+float: left;
+width: 300px;
+height: auto;
+}
+#ckir_text_table1{
+float: left;
+margin-left: 5px;
+margin-top: 5px;
+font-size: 14px;
+font-weight: bold;
+font-family: sans-serif;
+color: #eee;
+}
+#ckir_text_table2{
+float: left;
+margin-left: 5px;
+margin-top: 5px;
+font-size: 12px;
+font-weight: bold;
+font-family: sans-serif;
+color: #222;
+}
+#c_kanan{
+float: right;
+margin-top: 10px;
+margin-bottom: 5px;
+margin-right: 25px;
+width: 420px;
+height: auto;
+border: #C5CAE9 solid 1px;
+background-color: #fff;
+}
+#ck_tempat_judul{
+float: left;
+margin-top: 5px;
+width: 100%;
+height: auto;
+background-color: inherit;
+}
+#ck_text_judul{
+float: left;
+margin-left: 10px;
+margin-top: 15px;
+margin-bottom: 10px;
+font-size: 20px;
+font-weight: 900;
+font-family: sans-serif;
+color: #1A237E;
+width: auto;
+height: auto;
+}
+#ck_text_judula{
+float: left;
+margin-left: 10px;
+margin-top: 20px;
+margin-bottom: 10px;
+font-size: 18px;
+font-weight: bolder;
+font-family: sans-serif;
+color: red;
+width: auto;
+height: auto;
+}
+#ck_tmp_input{
+float: left;
+width: 100%;
+height: auto;
+background-color: inherit;
+}
+#ck_label_input{
+float: left;
+margin-top: 5px;
+margin-bottom: 3px;
+margin-left: 10px;
+height: auto;
+font-size: 14px;
+font-weight: bold;
+color: #9FA8DA;
+color: #777;
+font-family: sans-serif;
+}
+#ck_input_text_75{
+float: left;
+margin-left: 5px;
+height: 25px;
+width: 75px;
+}
+#ck_input_text_100{
+float: left;
+margin-left: 10px;
+height: 23px;
+width: 100px;
+}
+#ck_input_text_150{
+float: left;
+margin-left: 10px;
+height: 23px;
+width: 150px;
+}
+#ck_input_text_180a{
+float: left;
+margin-top: 5px;
+margin-left: 10px;
+height: 25px;
+width: 180px;
+}
+#ck_input_text_200{
+float: left;
+margin-left: 10px;
+height: 23px;
+width: 200px;
+}
+#ck_input_text_250{
+float: left;
+margin-left: 10px;
+height: 23px;
+width: 250px;
+}
+#ck_input_text_300{
+float: left;
+margin-left: 10px;
+height: 23px;
+width: 300px;
+}
+#ck_input_text_350{
+float: left;
+margin-left: 10px;
+height: 23px;
+width: 350px;
+}
+#ck_input_text_400a{
+float: left;
+margin-left: 10px;
+height: 30px;
+width: 400px;
+}
+#ck_input_button{
+float: left;
+margin-top: 10px;
+margin-bottom: 20px;
+margin-left: 10px;
+background-color: #303F9F;
+box-shadow: 0px 1px 3px 3px #4CAF50;
+border: 0;
+border-radius: 7px;
+color: #E8EAF6;
+height: 40px;
+width: 150px;
+font-size: 16px;
+font-weight: bold;
+cursor: pointer;
+}
+#ck_input_button:hover{
+background-color: #3F51B5;
+}
+#footer{
+float: left;
+margin-top: 10px;
+width: 100%;
+height: 35px;
+background-color: #1A237E;
+border-top: #9FA8DA solid 2px;
+}
+#isi_footer{
+float: left;
+margin-top: 7px;
+width: 100%;
+height: auto;
+font-family: sans-serif;
+font-size: 14px;
+font-weight: bolder;
+text-align: center;
+color: #ccc;
+}
+
+@media only screen and (max-width:480px){
+#c_kanan, #c_kiri{
+width: 100%;
+margin-right: 0px;
+margin-left: 0px;
+}
+#ckir_tmp_search{
+margin-left: 10px;
+margin-bottom: 5px;
+}
+#ckir_tempat_table{
+width: 450px;
+}
+}

@@ -1,0 +1,150 @@
+/* CSS Document */
+#ha_2{
+float:right;
+width:100%;
+min-height:600px;
+background-color:inherit;
+}
+#ha_2_head{
+float:left;
+width:100%;
+height:45px;
+background-color:#111;
+border-bottom:#666 solid 1px;
+}
+#ha_2_h_tmp_icont_full{
+float:left;
+margin-left:300px;
+margin-top:9px;
+width:27px;
+height:27px;
+border: #333 solid 1px;
+border-radius: 5px;
+background-color:inherit;
+cursor:pointer;
+display: block;
+}
+#ha_2_h_tmp_icont_full:hover{
+background-color:#444;
+}
+#ha_2_h_tempat_logout{
+float:right;
+margin-top:8px;
+margin-right:25px;
+width:auto;
+height:28px;
+background-color:#222;
+border-top-right-radius:14px;
+cursor:pointer;
+border:#444 solid 1px;
+}
+#ha_2_h_tempat_logout:hover{
+background-color:#444;
+}
+#text_logout{
+float:left;
+margin-left:10px;
+margin-top:8px;
+width:50px;
+height:auto;
+color:#fff;
+font:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size:12px;
+font-weight:bolder;
+}
+#ha_2_h_icont_logout{
+float:left;
+margin-left:5px;
+margin-right:10px;
+margin-top:5px;
+width:20px;
+height:20px;
+background-color:inherit;
+}
+#ha_2_h_tempat_menu_icont{
+float:right;
+margin-right:25px;
+width:auto;
+height:100%;
+background-color:inherit;
+}
+#ha_2_h_menu_icont_1{
+float:left;
+margin-right:1px;
+width:auto;
+height:100%;
+background-color:inherit;
+cursor:pointer;
+}
+#ha_2_h_menu_icont_1:hover{
+background-color:#444;
+}
+#ha_2_h_menu_icont_1_tempat_icont{
+float:left;
+margin-left:10px;
+margin-right:10px;
+margin-top:8px;
+width:20px;
+height:20px;
+padding:5px;
+box-shadow: #333 0px 0px 1px 1px;
+border-radius:13px;
+background-color:#111;
+}
+#ha_2_h_menu_icont_1_tempat_icont_ket{
+position:absolute;
+width:50px;
+height:30px;
+}
+#ha_2_h_menu_icont_1_tempat_icont_text{
+float:left;
+margin-left:28px;
+margin-top:3px;
+width:auto;
+height:auto;
+padding:3px;
+border-radius:5px;
+background-color:red;
+color:#ccc;
+font:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-weight:bolder;
+font-size:8px;
+}
+#h2_tempat_duit{
+float: left;
+margin-left: 25px;
+height: 100%;
+width: auto;
+background:inherit;
+}
+#h2_text_duit{
+  margin-left:5px;
+  margin-right: 5px;
+  margin-top:15px;
+  width:auto;
+  height:auto;
+  color:#fff;
+  font:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size:16px;
+  font-weight:bolder;
+
+}
+/*  isi Kontent */
+#h2_content{
+float:left;
+width:100%;
+min-height:500px;
+background-color:#fff;
+}
+@media only screen and (max-width:640px){
+#ha_2_h_tmp_icont_full{
+margin-left: 75px;
+display: none;
+}
+#h2_tempat_duit{
+margin-left: 60px;
+}
+}

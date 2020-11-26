@@ -1,0 +1,62 @@
+/* The element placed over the entire page during a modal operation */
+#opc-modal-overlay {
+	width:100%;height:100%;
+	position:fixed;
+	top:0;left:0;
+	background-color:#000;
+	z-index:9998;display:none;
+}
+/* The modal dialog outer container */
+.opc-modal-dialog {
+	font-family:Arial, Helvetica, sans-serif;
+	width:200px;
+	padding:0;margin:0;background-color:#fff;
+	border:solid 4px #ddd;
+	box-shadow:0px 0px 11px 5px rgba(0, 0, 0, 0.2);
+	position:absolute;z-index:9999;	
+}
+/* The title/header of the dialog */
+.opc-modal-title {
+	font-size:12px;
+	font-weight:bold;
+	background-color:#ddd;
+	padding:5px;
+	color:#999;
+	text-transform:uppercase;
+}
+/* A message displayed in the dialog */
+.opc-modal-message {
+	padding:10px;
+}
+/* Input text boxes within the dialog */
+.opc-modal-message input[type='text'] {
+	width:160px;
+	font-size:12px;
+	padding:3px;
+	border:solid 2px #ccc;
+}
+/* Dialog button container */
+.opc-modal-buttons {
+	text-align:right;
+	padding:10px;
+}
+/* Dialog buttons, e.g. Cancel, Yes, No, etc. */
+.opc-modal-buttons button {
+	outline:0;
+	border:solid 2px #ccc;
+	padding:5px;
+	color:#666;
+	font-weight:bold;
+	background-color: #ddd;
+	cursor: pointer;
+}
+/* Style of buttons when moused over */
+.opc-modal-buttons button:hover {
+	border-color:#ddd;
+	color:#000;
+	background-color: #eee;
+}
+/* Style of buttons when clicked */
+.opc-modal-buttons button:active {
+	background:color: #fff;
+}

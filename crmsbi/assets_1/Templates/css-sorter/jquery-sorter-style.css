@@ -1,0 +1,41 @@
+/* tables */
+#zebrax {
+	font-family:arial;
+	background-color: #CDCDCD;
+	margin:10px 0pt 15px;
+	font-size: 8pt;
+	width: 100%;
+	text-align: left;
+}
+#zebrax thead tr th, #zebrax tfoot tr th {
+	background-color: #e6EEEE;
+	border: 1px solid #FFF;
+	font-size: 8pt;
+	padding: 4px;
+}
+
+#zebrax tbody td {
+	color: #3D3D3D;
+	padding: 4px;
+	background-color: #FFF;
+	vertical-align: top;
+}
+#zebrax tbody tr.odd td {
+	background-color:#F0F0F6;
+}
+
+#zebrax thead tr .header {
+	background-image: url(bg.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+#zebrax thead tr .headerSortUp {
+	background-image: url(asc.gif);
+}
+#zebrax thead tr .headerSortDown {
+	background-image: url(desc.gif);
+}
+#zebrax thead tr .headerSortDown, #zebrax thead tr .headerSortUp {
+background-color: #8dbdd8;
+}

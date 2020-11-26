@@ -1,0 +1,145 @@
+html, body {
+    height : 100%;
+}
+body{
+margin-top:0px;
+margin-left:0px;
+margin-right:0px;
+margin-bottom:0px;
+min-width:1000px;
+font-family:arial;
+}
+
+/* Loader */
+.ui-icon-loading {
+	background: url(ajax-loader.gif);
+	background-size: 2.875em 2.875em;
+}
+/* Loading screen */
+.ui-loading .ui-loader {
+	display: block;
+}
+.ui-loader {
+	display: none;
+	z-index: 9999999;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	border:0;
+}
+.ui-loader-default {
+	background: none;
+	filter: Alpha(Opacity=18);
+	opacity: .18;
+	width: 2.875em;
+	height: 2.875em;
+	margin-left: -1.4375em;
+	margin-top: -1.4375em;
+}
+.ui-loader-verbose {
+	width: 12.5em;
+	filter: Alpha(Opacity=88);
+	opacity: .88;
+	box-shadow: 0 1px 1px -1px #fff;
+	height: auto;
+	margin-left: -6.875em;
+	margin-top: -2.6875em;
+	padding: .625em;
+}
+.ui-loader-default h1 {
+	font-size: 0;
+	width: 0;
+	height: 0;
+	overflow: hidden;
+}
+.ui-loader-verbose h1 {
+	font-size: 1em;
+	margin: 0;
+	text-align: center;
+}
+.ui-loader .ui-icon-loading {
+	background-color: #000;
+	display: block;
+	margin: 0;
+	width: 2.75em;
+	height: 2.75em;
+	padding: .0625em;
+	-webkit-border-radius: 2.25em;
+	border-radius: 2.25em;
+}
+.ui-loader-verbose .ui-icon-loading {
+	margin: 0 auto .625em;
+	filter: Alpha(Opacity=75);
+	opacity: .75;
+}
+.ui-loader-textonly {
+	padding: .9375em;
+	margin-left: -7.1875em;
+}
+.ui-loader-textonly .ui-icon-loading {
+	display: none;
+}
+.ui-loader-fakefix {
+	position: absolute;
+}
+td,th{
+border:solid 1px #000;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+padding:3px;
+}
+.machine-text{
+font-size:14px;
+font-weight:bold;
+}
+.title {
+
+display:block;
+height:20px;}
+.title .feed-text { float:right }
+.title .duration-text .timer-text { float:left }
+.duration-text ,.feed-text{
+font-size:12px;
+font-weight:bold;
+}
+.timer-text{
+font-size:12px;
+}
+.feed-value{
+ display: inline-block;
+  width: 20px;
+  text-align: right;
+}
+th{
+background:#587A4C;
+color:white;
+font-size:24px;
+}
+.siloc{
+background:#4BA0FA;
+font-size:14px;
+}
+.silo-text{
+float:left;
+margin-left:3px;
+font-weight:bold;
+}
+.silo-value,.silo-stat{
+float:right;
+margin-right:3px;
+}
+.silo-stat{
+width:40px;
+}
+.silo-main{
+clear:both;
+height:5px;
+}
+.Run,.null{
+background:#3AF20C;
+color:black;
+}
+.Stop{
+background:#EB1515;
+color:#FFFFFF;
+}

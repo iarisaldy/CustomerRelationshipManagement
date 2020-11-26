@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>    
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+        <title>Upload Data SCM</title>
+        <link href="<?= base_url() ?>/assets/Templates/css/template_css.css" rel="stylesheet" type="text/css" />
+        <link href="<?= base_url() ?>/assets/Templates/css/admin_login.css" rel="stylesheet" type="text/css" />
+        <link href="<?= base_url() ?>/assets/Templates/css/theme.css" rel="stylesheet" type="text/css" />
+    </head>
+    <style>
+        table.excel {
+            border-style:ridge;
+            border-width:1;
+            border-collapse:collapse;
+            font-family:sans-serif;
+            font-size:13px;
+            width : 86%;
+        }
+        table.excel thead th, table.excel tbody th {
+            background:#CCCCCC;
+            border-style:ridge;
+            border-width:1;
+            text-align: center;
+            vertical-align:bottom;
+        }
+        table.excel tbody th {
+            text-align:center;
+            width:20px;
+        }
+        table.excel tbody td {
+            vertical-align:bottom;
+            
+        }
+        table.excel tbody td {
+            padding: 3px;
+            border: 1px solid #EEEEEE;
+        }
+        th.da2 {
+            background: url(<?= base_url() ?>assets/Templates/dataarsip2.png) no-repeat left !important;
+        }
+    </style>
+
+    <body>    
+        <div align="center"><br></br>
+            <table width="800" align="center" class="adminheading" border="0">
+                <tr>
+                    <th class="da2">Upload Data <?= $title ?></th>
+                </tr></table>
+        </div>
+
+        <form method="post" name="import" id="import" enctype="multipart/form-data" action="<?= $action; ?>">
+            <table width="800" align="center" class="adminform">
+                <tr>
+                    <td class="puso">&nbsp;</td>
+                    <td class="puso">&nbsp;</td>
+                    <td class="puso">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="puso" width="100">&nbsp;&nbsp;&nbsp;Upload file </td>
+                    <td class="puso">:</td>
+                    <td> <input name="file" type="file" class="button"></td>
+                </tr>
+                <tr>
+                    <td class="puso">&nbsp;</td>
+                    <td class="puso">&nbsp;</td>
+                    <td><input name="Upload" type="submit" class="button" value="Upload"></input></td>
+                </tr>
+                <tr>
+                    <td class="puso">&nbsp;</td>
+                    <td class="puso">&nbsp;</td>
+                    <td class="puso">&nbsp;</td>           
+                </tr>
+                <tr>
+                    <td class="puso" colspan="3">
+                        &nbsp;&nbsp;&nbsp;Download template Upload Data Master <?=$title?>
+                        <a href="<?= $urlfile ?>">disini</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="puso">&nbsp;</td>
+                    <td class="puso">&nbsp;</td>
+                    <td class="puso">&nbsp;</td>           
+                </tr>
+            </table>
+        </form>
+        <br></br><br></br>
+
+
+
+        <div align="center">
+            <table class='excel'>
+                <thead>
+                    <tr>
+                        <?php
+                        if (count($dataX) > 0) {
+                            foreach ($dataX[0] as $key => $value) {
+                                echo '<th>' . $key . '</th>';
+                            }
+                        }
+                        ?>
+                    </tr>
+                </thead>
+                <tbody>
+                    <?php
+                    if (count($dataX) > 0) {
+                        $i = 0;
+                        foreach ($dataX as $key => $value) {
+                            echo '<tr>';
+                            foreach ($dataX[$i++] as $key => $value) {
+                                echo '<td>' . $value . '</td>';
+                            }
+                            echo '</tr>';
+                        }
+                    }
+                    ?>
+                </tbody>
+            </table>
+        </div>
+
+
+        <p>&nbsp;</p>
+
+        <div align="center"><span class="stoil">----------------------------------------------------------------------------------------------------------------------------</span>
+        </div>
+        <table width="469" border="0" align="center">
+            <tr>
+              <!--<td width="44"><img name="labkom" src="images/logo.png" width="32" height="32" alt="" /></td>-->
+                <td width="415"><div align="center" class="stol">Copyright @ <?= date("Y"); ?> PT. Semen Indonesia (Persero) Tbk.</div></td>
+            </tr>
+            <tr>
+                <td colspan="2"><div align="center" class="stol">Best Viewed With Mozila Firefox at 1024 x 768 pixel</div></td>
+            </tr>
+
+        </table>
+    </body>
+</html>

@@ -1,0 +1,152 @@
+	.c1{
+		position: absolute;
+		border-style: solid;
+		border-width: 1px;
+		border-color: black;
+		width: 2%;
+		color: black;
+		top: 50%;
+		left: 35%;
+		background: #2BEF25;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c1:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c1-val{
+		position: absolute;
+		border-style: solid;
+		border-width: 1px;
+		border-color: black;
+		width: 2%;
+		top: 52.8%;
+		left: 35%;
+		color: black;
+		background: #80DFFF;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c1-val:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c2{
+		position: absolute;
+		border-style: solid;
+		border-width: 1px;
+		border-color: black;
+		width: 2%;
+		color: black;
+		top: 50%;
+		left: 38%;
+		background: #2BEF25;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c2:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c2-val{
+		position: absolute;
+		border-style: solid;
+		border-width: 1px;
+		border-color: black;
+		width: 2%;
+		top: 52.8%;
+		left: 38%;
+		color: black;
+		background: #80DFFF;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c2-val:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c3{
+		position: absolute;
+		border-style: solid;
+		border-width: 1px;
+		border-color: black;
+		width: 2%;
+		color: black;
+		top: 50%;
+		left: 41%;
+		background: #2BEF25;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c3:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c3-val{
+		position: absolute;
+		border-style: solid;
+		border-width: 1px;
+		border-color: black;
+		width: 2%;
+		top: 52.8%;
+		left: 41%;
+		color: black;
+		background: #80DFFF;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c3-val:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c4{
+		position: absolute;
+		border-style: solid;
+		border-width: 1px;
+		border-color: black;
+		width: 2%;
+		color: black;
+		top: 50%;
+		left: 44%;
+		background: #2BEF25;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c4:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
+	.c4-val{
+		position: absolute;
+		border-style: solid;
+		border-width: 1px;
+		border-color: black;
+		width: 2%;
+		top: 52.8%;
+		left: 44%;
+		color: black;
+		background: #80DFFF;
+		font-size: 11px;
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	.c4-val:before{
+		content: "";
+		display: block;
+		padding-bottom: 80%;
+	}
