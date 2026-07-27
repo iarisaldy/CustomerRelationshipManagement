@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Customer Relationship Management (CRM) - Enterprise Showcase Revamp</title>
-  <meta name="description" content="A state-of-the-art modern revamp of Irfan Arisaldy's 1st Developer Project: CodeIgniter CRM to Next-Gen Enterprise Customer Relationship Management Suite.">
+  <title>CRM Semen Indonesia - Enterprise Showcase Revamp</title>
+  <meta name="description" content="A state-of-the-art modern revamp of Irfan Arisaldy's 1st Developer Project: CodeIgniter CRM Semen Indonesia to Next-Gen Enterprise Suite.">
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
@@ -16,8 +16,8 @@
         <div class="brand-header">
           <div class="brand-logo-icon">C</div>
           <div class="brand-info">
-            <h2>CRM Enterprise</h2>
-            <span class="brand-badge">Revamp Showcase</span>
+            <h2>CRM Semen Indonesia</h2>
+            <span class="brand-badge">Enterprise Revamp</span>
           </div>
         </div>
 
@@ -63,6 +63,12 @@
               <span>Memory Vault</span>
             </button>
           </li>
+          <li class="nav-item">
+            <button id="btn-sidebar-about">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+              <span>About Proyek</span>
+            </button>
+          </li>
         </ul>
       </div>
 
@@ -90,6 +96,10 @@
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
             <input type="text" id="global-search" placeholder="Cari toko, kapal, atau transaksi...">
           </div>
+
+          <button class="icon-btn" id="btn-header-about" title="About CRM Semen Indonesia">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+          </button>
 
           <button class="icon-btn" id="theme-toggle-btn" title="Toggle Light/Dark Theme">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
@@ -428,6 +438,55 @@ const formatDestinations = (destinations = []) => {
           <button type="submit" class="btn-primary">Simpan Toko</button>
         </div>
       </form>
+    </div>
+  </div>
+
+  <!-- About Project Modal Overlay -->
+  <div class="modal-overlay" id="about-modal-overlay">
+    <div class="modal-container" style="max-width: 650px;">
+      <div class="modal-header">
+        <div style="display: flex; align-items: center; gap: 0.75rem;">
+          <div class="brand-logo-icon" style="width: 36px; height: 36px; font-size: 1.1rem; flex-shrink: 0;">C</div>
+          <div>
+            <h3 style="margin: 0; font-size: 1.15rem;">About CRM Semen Indonesia</h3>
+            <span style="font-size: 0.75rem; color: var(--accent-primary); font-weight: 600;">Repository: crm-semen-indonesia</span>
+          </div>
+        </div>
+        <button class="close-btn" id="about-modal-close-btn">&times;</button>
+      </div>
+
+      <div style="padding: 1.5rem; display: flex; flex-direction: column; gap: 1.25rem;">
+        <div style="background: rgba(99, 102, 241, 0.1); border-left: 4px solid var(--accent-primary); padding: 1rem; border-radius: 0 8px 8px 0;">
+          <h4 style="margin: 0 0 0.4rem 0; color: var(--accent-primary);">🚀 Project Background & History</h4>
+          <p style="margin: 0; font-size: 0.88rem; color: var(--text-secondary); line-height: 1.6;">
+            Aplikasi ini merupakan <strong>Proyek Perdana (1st Developer Project) Irfan Arisaldy</strong> di tahun 2018 yang telah direvamp menjadi platform Customer Relationship Management (CRM) & Sistem Logistik Distribusi Semen berstandar enterprise.
+          </p>
+        </div>
+
+        <div>
+          <h4 style="font-size: 0.95rem; margin-bottom: 0.75rem; color: var(--text-primary);">✨ Fitur Utama & Modul Domain</h4>
+          <ul style="margin: 0; padding-left: 1.2rem; font-size: 0.88rem; color: var(--text-secondary); line-height: 1.8;">
+            <li><strong>Keaktifan Toko:</strong> Monitoring & direktori toko bangunan retail, sub-distributor, serta distributor utama di wilayah Tuban, Surabaya, Gresik, Ciwandan, & Priok.</li>
+            <li><strong>PMS Shipping Logistics Tracker:</strong> Pelacakan data kapal semen riil (`pms.sql`) melacak ritase, pelabuhan sandar, dan status bongkar muat.</li>
+            <li><strong>Sales Pipeline Kanban:</strong> Visualisasi deal sales dari kualifikasi hingga deal won.</li>
+            <li><strong>Visit Scheduler:</strong> Penjadwalan audit stok & rute kunjungan sales representative.</li>
+            <li><strong>Memory Vault:</strong> Historical side-by-side comparison antara PHP CodeIgniter 3 (2018) & ES6+ SPA Engine (2026).</li>
+          </ul>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; background: var(--bg-tertiary); padding: 1rem; border-radius: 8px; border: 1px solid var(--border-color);">
+          <div>
+            <span style="font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase;">Developer</span>
+            <div style="font-weight: 600; color: var(--text-primary); font-size: 0.9rem; margin-top: 2px;">Irfan Arisaldy</div>
+          </div>
+          <div>
+            <span style="font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase;">GitHub Repository</span>
+            <div style="font-weight: 600; color: var(--accent-primary); font-size: 0.9rem; margin-top: 2px;">
+              <a href="https://github.com/iarisaldy/crm-semen-indonesia" target="_blank" style="color: inherit; text-decoration: underline;">iarisaldy/crm-semen-indonesia ↗</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 

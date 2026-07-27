@@ -186,7 +186,31 @@ function initModalForms() {
       showToast(`Toko "${newCustomer.name}" berhasil ditambahkan!`);
     });
   }
+
+  // About Project Modal Logic
+  const aboutOverlay = document.getElementById('about-modal-overlay');
+  const btnHeaderAbout = document.getElementById('btn-header-about');
+  const btnSidebarAbout = document.getElementById('btn-sidebar-about');
+  const aboutCloseBtn = document.getElementById('about-modal-close-btn');
+
+  const openAboutModal = () => {
+    if (aboutOverlay) aboutOverlay.classList.add('active');
+  };
+
+  if (btnHeaderAbout) btnHeaderAbout.addEventListener('click', openAboutModal);
+  if (btnSidebarAbout) btnSidebarAbout.addEventListener('click', openAboutModal);
+  if (aboutCloseBtn) {
+    aboutCloseBtn.addEventListener('click', () => {
+      if (aboutOverlay) aboutOverlay.classList.remove('active');
+    });
+  }
+  if (aboutOverlay) {
+    aboutOverlay.addEventListener('click', (e) => {
+      if (e.target === aboutOverlay) aboutOverlay.classList.remove('active');
+    });
+  }
 }
+
 
 // --- Render All Views ---
 function renderAllViews() {
