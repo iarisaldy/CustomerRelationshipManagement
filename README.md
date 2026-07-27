@@ -1,70 +1,97 @@
-###################
-What is CodeIgniter
-###################
+# 🚀 Customer Relationship Management (CRM) - Next-Gen Showcase & Developer Journey
 
-CodeIgniter is an Application Development Framework - a toolkit - for people
-who build web sites using PHP. Its goal is to enable you to develop projects
-much faster than you could if you were writing code from scratch, by providing
-a rich set of libraries for commonly needed tasks, as well as a simple
-interface and logical structure to access these libraries. CodeIgniter lets
-you creatively focus on your project by minimizing the amount of code needed
-for a given task.
+<div align="center">
 
-*******************
-Release Information
-*******************
+![Project Status](https://img.shields.io/badge/Status-Revamped%20%26%20Modernized-10b981?style=for-the-badge)
+![Developer Origin](https://img.shields.io/badge/Origin-1st%20Developer%20Project-6366f1?style=for-the-badge)
+![Tech Stack](https://img.shields.io/badge/Stack-PHP%20%7C%20CodeIgniter%20%7C%20Modern%20ES6%2B%20%7C%20CSS3-06b6d4?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-f59e0b?style=for-the-badge)
 
-This repo contains in-development code for future releases. To download the
-latest stable release please visit the `CodeIgniter Downloads
-<https://codeigniter.com/download>`_ page.
+<p align="center">
+  <b>Legacy 2018 CodeIgniter CRM &rarr; 2026 Next-Generation Enterprise Suite</b>
+</p>
 
-**************************
-Changelog and New Features
-**************************
+</div>
 
-You can find a list of all changes for each release in the `user
-guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
+---
 
-*******************
-Server Requirements
-*******************
+## 📖 Developer Origin Story ("Kenang-Kenangan Proyek Pertama")
 
-PHP version 5.6 or newer is recommended.
+Selamat datang di repository **Customer Relationship Management (CRM)** karya **Irfan Arisaldy**! 
 
-It should work on 5.3.7 as well, but we strongly advise you NOT to run
-such old versions of PHP, because of potential security and performance
-issues, as well as missing features.
+Repository ini memiliki nilai sejarah tinggi sebagai **proyek developer pertama** yang ditulis pada tahun 2018. Proyek ini awalnya dirancang untuk menangani operasional jaringan retail toko bangunan (`Keaktifan Toko`), manajemen sub-distributor, serta integrasi logistik kapal pengangkut semen (*PMS Shipping*) untuk wilayah Tuban, Surabaya, Banten, dan Tanjung Priok.
 
-************
-Installation
-************
+Kini, repository ini telah **direvamp secara menyeluruh** menjadi sebuah aplikasi web interaktif yang modern, responsif, dan estetik dengan antarmuka berstandar enterprise!
 
-Please see the `installation section <https://codeigniter.com/user_guide/installation/index.html>`_
-of the CodeIgniter User Guide.
+---
 
-*******
-License
-*******
+## ✨ Fitur Utama Web Application (Revamped Suite)
 
-Please see the `license
-agreement <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/license.rst>`_.
+1. **Executive Overview Dashboard**
+   - Ringkasan KPI real-time: Total Toko Aktif, Status Kapal Sandar, Estimasi Pendapatan, dan Sales Visit Target.
+   - Grafik interaktif berbasis HTML5 Canvas untuk tren penjualan semen dan distribusi toko per wilayah.
+   - Mode Tampilan Ganda (**Dark Mode & Light Mode**).
 
-*********
-Resources
-*********
+2. **Direktori Toko & Keaktifan Toko**
+   - Pencarian & Filter real-time berdasarkan status keaktifan (Aktif, Non-Aktif, Potensial) dan lokasi wilayah (Tuban, Surabaya, Gresik, Ciwandan, Tanjung Priok).
+   - Form modal interaktif untuk penambahan toko retail baru.
 
--  `User Guide <https://codeigniter.com/docs>`_
--  `Language File Translations <https://github.com/bcit-ci/codeigniter3-translations>`_
--  `Community Forums <http://forum.codeigniter.com/>`_
--  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki>`_
--  `Community Slack Channel <https://codeigniterchat.slack.com>`_
+3. **PMS Shipping Logistics Tracker**
+   - Pelacakan kapal logistik semen berbasis dataset `pms.sql` (KM Tuban Express, MV Ciwandan Star, dsb.).
+   - Informasi rute pelabuhan muat/tujuan, total ritase, status pembongkaran, dan ETA.
 
-Report security issues to our `Security Panel <mailto:security@codeigniter.com>`_
-or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
+4. **Sales Pipeline (Kanban Board)**
+   - Manajemen peluang deal penjualan dengan visualisasi Kanban (Kualifikasi, Proposal, Negosiasi, Closed Won).
 
-***************
-Acknowledgement
-***************
+5. **Visit Scheduler & Operations**
+   - Penjadwalan rencana kunjungan Sales Representative ke toko retail untuk audit keaktifan stok.
 
-The CodeIgniter team would like to thank EllisLab, all the
-contributors to the CodeIgniter project and you, the CodeIgniter user.
+6. **Memory Vault & Developer Origin Journey**
+   - Komparasi *side-by-side* antara kode PHP CodeIgniter asli tahun 2018 dan implementasi arsitektur modern tahun 2026.
+
+---
+
+## 📂 Struktur Repository
+
+```text
+CustomerRelationshipManagement/
+├── index.html              # Modern Application Entrypoint
+├── assets/
+│   ├── css/
+│   │   └── styles.css      # Glassmorphism & Modern Design System
+│   └── js/
+│       └── app.js          # Interactive SPA Engine & Canvas Analytics
+├── crmsbi/                 # Legacy CodeIgniter 3 Application (PMS & Sales Modules)
+│   ├── application/
+│   ├── assets/
+│   └── pms.sql             # Real Shipping & Vessel SQL Queries
+├── crmn/                   # Legacy Customer Relationship Module
+└── mini-crm/               # Legacy Lightweight Store & Customer Tracker
+```
+
+---
+
+## ⚡ Cara Menjalankan Aplikasi Web
+
+### Tampilan Modern (Langsung di Browser):
+1. Clone repository ini:
+   ```bash
+   git clone https://github.com/iarisaldy/CustomerRelationshipManagement.git
+   ```
+2. Buka file `index.html` di browser favorit Anda (Google Chrome, Safari, Edge, Firefox).
+3. Nikmati antarmuka CRM Enterprise yang interaktif!
+
+---
+
+## 🛠 Tech Stack Evolution
+
+- **2018 (Origin Codebase)**: PHP 5.6, CodeIgniter 3 Framework, MySQL / Oracle DB Queries (`pms.sql`), jQuery Datatables.
+- **2026 (Revamp Showcase)**: Vanilla JS ES6+, Modern CSS3 Custom Variables, Glassmorphism UI, HTML5 Canvas Graphics, Semantic HTML5.
+
+---
+
+<div align="center">
+
+Dibuat dengan ❤️ oleh **Irfan Arisaldy** — Dari baris kode pertama di 2018 hingga karya berstandar enterprise di 2026.
+
+</div>
